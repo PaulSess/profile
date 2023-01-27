@@ -98,14 +98,14 @@ body{
   font-size: 2.55rem;
   /* font-weight: 650; */
 }
-.mouse-click{
+#mouse-click1{
   width: 90px;
   position: absolute;
   right: -45px;
   top: -2px;
   display: none;
 }
-.mouse-click-bit{
+#mouse-click-bit1{
   width: 90px;
   position: absolute;
   right: -45px;
