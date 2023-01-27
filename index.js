@@ -3,20 +3,34 @@ const school_drop_icon = document.getElementById("school-drop-icon")
 const school_projects = document.getElementById("school-projects")
 
 
-// mouse hover effect
+// HAND mouse hover effect
 const mouse1 = document.getElementById("mouse-click1")
 school_project_drop.addEventListener("mouseover", function(event) {
   if (event.target.className === "sp") {
-    document.getElementById("mouse-click1").style.display = "block";
+    mouse1.style.display = "block";
   }
 });
 
 document.addEventListener("mouseout", function(event) {
   if (event.target.className === "sp") {
-    document.getElementById("mouse-click1").style.display = "none";
+    mouse1.style.display = "none";
   }
 });
 
+// // GITHUB mouse hover effect
+// const ghlogoOG = document.getElementById("profile-link")
+// ghlogoOG.addEventListener("mouseover", function(event) {
+//   if (event.target.className === "showgh") {
+//     document.getElementById("profile-link2").style.display = "block";
+//     // ghlogoOG.style.display = "none";
+//   }
+// });
+
+// document.addEventListener("mouseout", function(event) {
+//   if (event.target.className === "showgh") {
+//     document.getElementById("profile-link1").style.display = "none";
+//   }
+// });
 
 
 

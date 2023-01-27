@@ -18,7 +18,7 @@ body{
 }
 
             /* NAVBAR */
-/* #navbar{
+#navbar{
   height: 82px;
   background-color: #262626;
   position: fixed;
@@ -44,9 +44,19 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 #profile-link{
-  margin-right: 10px;
+  margin-right: 20px;
+  position: relative;
 }
- */
+#profile-link2{
+  margin-right: 20px;
+  position: absolute;
+  top: 0;
+  right: -25px;
+  display: none;
+
+
+}
+
             /* Welcome section  */
 #welcome-section{
   background-image: url("https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80");
@@ -99,13 +109,6 @@ body{
   /* font-weight: 650; */
 }
 #mouse-click1{
-  width: 90px;
-  position: absolute;
-  right: -45px;
-  top: -2px;
-  display: none;
-}
-#mouse-click-bit1{
   width: 90px;
   position: absolute;
   right: -45px;
