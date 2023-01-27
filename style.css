@@ -18,7 +18,7 @@ body{
 }
 
             /* NAVBAR */
-#navbar{
+/* #navbar{
   height: 82px;
   background-color: #262626;
   position: fixed;
@@ -46,7 +46,7 @@ body{
 #profile-link{
   margin-right: 10px;
 }
-
+ */
             /* Welcome section  */
 #welcome-section{
   background-image: url("https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80");
@@ -78,17 +78,51 @@ body{
   color: antiquewhite;
 }
               /* Project section  */
-#projects{
+/* #projects{
   display: flex;
   justify-content: space-around;
   margin: 100px 0;
   background-color: #5f5f5f;
+} */
+#school-projects{
+  justify-content: space-around;
+  margin: 100px 0;
+  background-color: #5f5f5f;
+  display: none;
 }
-
+#schooldrop{
+  position: relative;
+  width: fit-content;
+}
+#schooldrop:hover{
+  font-size: 2.55rem;
+  /* font-weight: 650; */
+}
+.mouse-click{
+  width: 90px;
+  position: absolute;
+  right: -45px;
+  top: -2px;
+  display: none;
+}
+.mouse-click-bit{
+  width: 90px;
+  position: absolute;
+  right: -45px;
+  top: -2px;
+  display: none;
+}
 .project-div{
   width: 400px;
   height: 300px;
   margin: auto;
+}
+.project-description{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 /*
 .project-img{
