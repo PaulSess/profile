@@ -11,12 +11,24 @@ school_project_drop.addEventListener("mouseover", function(event) {
     mouse1.style.display = "block";
   }
 });
-
 document.addEventListener("mouseout", function(event) {
   if (event.target.className === "sp") {
     mouse1.style.display = "none";
   }
 });
+
+
+
+  // Display  SCHOOLPROJECTS
+school_project_drop.addEventListener("click", (event) => {
+  console.log(event)
+  // school_drop_icon.classList.remove("fa-solid", "fa-caret-right");
+  // school_drop_icon.classList.toggle("fa-solid", "fa-caret-down");
+  school_projects.classList.toggle("d-flex")
+})
+
+
+
 // HAND mouse hover effect  TEAMPROJECTS
 const mouseteam = document.getElementById("mouse-click-team")
 team_project_drop.addEventListener("mouseover", function(event) {
@@ -45,16 +57,3 @@ document.addEventListener("mouseout", function(event) {
 //     document.getElementById("profile-link1").style.display = "none";
 //   }
 // });
-
-
-
-
-school_project_drop.addEventListener("click", (event) => {
-  console.log(event)
-  // school_drop_icon.classList.remove("fa-solid", "fa-caret-right");
-  // school_drop_icon.classList.toggle("fa-solid", "fa-caret-down");
-  school_projects.classList.toggle("d-flex")
-
-
-})
-// console.log(school_project_drop.innerHTML)
