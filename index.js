@@ -1,5 +1,6 @@
 const school_project_drop = document.getElementById("schooldrop")
 const team_project_drop = document.getElementById("teamdrop")
+const personal_project_drop = document.getElementById("personaldrop")
 const school_drop_icon = document.getElementById("school-drop-icon")
 const school_projects = document.getElementById("school-projects")
 
@@ -40,6 +41,19 @@ team_project_drop.addEventListener("mouseover", function(event) {
 document.addEventListener("mouseout", function(event) {
   if (event.target.className === "team") {
     mouseteam.style.display = "none";
+  }
+});
+// HAND mouse hover effect  PERSONALPROJECTS
+const mousepersonal = document.getElementById("mouse-click-personal")
+personal_project_drop.addEventListener("mouseover", function(event) {
+  if (event.target.className === "personal") {
+    mousepersonal.style.display = "block";
+  }
+});
+
+document.addEventListener("mouseout", function(event) {
+  if (event.target.className === "personal") {
+    mousepersonal.style.display = "none";
   }
 });
 
