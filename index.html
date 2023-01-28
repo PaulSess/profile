@@ -15,6 +15,10 @@
   <title>Paul's page</title>
 </head>
 
+
+
+
+      <!-- NAVBAR  -->
 <nav id="navbar">
   <i class="fa-solid fa-code navcodeicon" style="font-size: 50px;"></i>
   <a class="navlink" href="#projects">Projects</a>
@@ -25,9 +29,15 @@
     </a>
     <img src="./images/github.svg" alt="github link">
   </a>
-
 </nav>
+           <!-- ----------  -->
 
+
+
+
+
+
+          <!-- WELCOME SECTION  -->
 <body>
   <section id="welcome-section">
       <h1>Hi, my name is <a id="paul" target="_blank" href="https://www.linkedin.com/in/paul-sess/">Paul</a></h1>
@@ -37,7 +47,12 @@
     <!-- <button type="button" class="btn btn-primary"          !!!    data-toggle="modal" data-target="#exampleModal"   !!!      >
       Launch demo modal
     </button> -->
+      <!-- -------------  -->
 
+
+
+
+              <!-- PROJECT SECTION  -->
 
 <section id="projects">
 
@@ -51,7 +66,6 @@
           <div class="carousel-item active">
             <img class="d-block w-100" src="./images/giftit/landingpage giftit.png" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                  <!-- <h5>Giftit landingpage</h5> -->
                 </div>
             </div>
             <div class="carousel-item">
@@ -80,12 +94,6 @@
     </div>
 
 
-            <!-- <div class="project-description">
-              <a href="https://www.giftit.one/" target="_blank"><img src="./images/giftit/giftit.svg" alt="Giftit logo"></a>
-              <h3 class="project-tile">Giftit. An app to find the perfect gift for family, friends and colleages.</h3>
-            </div>
-          </div>
-          </div> -->
 
 
 
@@ -93,19 +101,13 @@
 
 
 
-
+            <!-- LonelyFans carousel  -->
     <div class="project-div">
       <div id="carouselLonelyfansIndicators" class="carousel slide" data-ride="carousel" data-interval="10300" data-toggle="modal" data-target="#LonelyFansModal">
-        <!-- <ol class="carousel-indicators">
-          <li data-target="#carouselLonelyfansIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselLonelyfansIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselLonelyfansIndicators" data-slide-to="2"></li>
-        </ol> -->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="./images/lonelyfans/startpage lonelyfans.png" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                  <!-- <h5>Lonelyfans landingpage</h5> -->
                 </div>
             </div>
             <div class="carousel-item">
@@ -149,14 +151,14 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" data-bs-keyboard="false" data-bs-backdrop="static" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header GiftitModalBackground">
         <a class="modal-title" id="exampleModalLabel" href="https://www.giftit.one/" target="_blank"><img src="./images/giftit/giftit.svg" alt="Giftit logo"></a>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
 
-      <div class="modal-body">
+      <div class="modal-body GiftitModalBackground">
         <div id="carouselGiftitModalIndicators" class="carousel slide" data-ride="carousel" data-toggle="modal" data-target="#exampleModal">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -182,27 +184,33 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
+          <p>Is a mobile web app to find the perfect gift with your friends. <br><br>
+
+            Created by using mainly ruby on rails, html, scss and sql in collaboration with a team of 3 other developer.<br>
+            Giftit was developed in 2022 as my final project in my web development school with "Le wagon" in <Berlin class=""></Berlin>
+          </p>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>
-        </div>
+    </div>
+  </div>
+</div>
 
               <!-- Lonelyfans Modal  -->
-<div class="modal fade" id="LonelyFansModal" tabindex="-1" data-bs-keyboard="false" data-bs-backdrop="static" role="dialog" aria-labelledby="LonelyFansModalLabel" aria-hidden="true">
+<div class="modal fade" id="LonelyFansModal" tabindex="-1" data-bs-keyboard="false" data-bs-backdrop="static" role="dialog" aria-labelledby="LonleyFansModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="LonelyFansModalLabel">LonelyFans</h5>
+      <div class="modal-header LonelyFansModalBackground">
+        <a class="modal-title" id="LonleyFansModalLabel" href="http://www.lonelyfans.fun/" target="_blank"><img src="./images/lonelyfans/lonelyfans_l7vcxj.svg" alt="LonelyFans logo"></a>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
 
-      <div class="modal-body">
-        <div id="carouselLonelyfansModalIndicators" class="carousel slide" data-ride="carousel" data-interval="10300" data-toggle="modal" data-target="#LonelyFansModal">
+      <div class="modal-body LonelyFansModalBackground">
+        <div id="carouselLonleyFansModalIndicators" class="carousel slide" data-ride="carousel" data-toggle="modal" data-target="#LonleyFansModal">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="./images/lonelyfans/startpage lonelyfans.png" alt="First slide">
@@ -210,27 +218,27 @@
                   </div>
               </div>
               <div class="carousel-item">
-                  <img class="d-block w-100" src="./images/lonelyfans/booking history lonelyfans.png" alt="Third slide">
+                  <img class="d-block w-100" src="./images/lonelyfans/booking history lonelyfans.png" alt="Second slide">
               </div>
               <div class="carousel-item">
-                  <img class="d-block w-100" src="./images/lonelyfans/booking page lonelyfans.png" alt="Fourth slide">
+                  <img class="d-block w-100" src="./images/lonelyfans/booking page lonelyfans.png" alt="Third slide">
               </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselLonelyfansModalIndicators" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#carouselLonleyFansModalIndicators" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselLonelyfansModalIndicators" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#carouselLonleyFansModalIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-          <!-- <div class="project-description">
-            <a href="http://www.lonelyfans.fun/" target="_blank"><img src="./images/lonelyfans/lonelyfans_l7vcxj.svg" alt="Lonelyfans logo"></a>
-            <h3 class="project-tile">Is a website for renting out footballfans in Qatar. </h3>
-          </div> -->
+          <p>Is a website for renting out football fans in Qatar. <br><br>
+
+            Created by using mainly ruby on rails, html, scss and sql in collaboration with a team of 3 other developer.<br>
+            Lonelyfans was developed in 2022 as my first project in my web development school with "Le wagon" in Berlin.
+          </p>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>

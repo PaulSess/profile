@@ -43,6 +43,11 @@ body{
   color: antiquewhite;
   font-family: 'Poppins', sans-serif;
 }
+.navlink:hover{
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: 600;
+}
 #profile-link{
   margin-right: 20px;
   position: relative;
@@ -87,6 +92,12 @@ body{
 #paul{
   color: antiquewhite;
 }
+
+
+
+
+
+
               /* Project section  */
 /* #projects{
   display: flex;
@@ -103,6 +114,7 @@ body{
 #schooldrop{
   position: relative;
   width: fit-content;
+  margin: 50px auto;
 }
 #schooldrop:hover{
   font-size: 2.55rem;
@@ -136,6 +148,32 @@ body{
   width: fit-content;
   margin: auto;
 } */
+
+
+
+/* Modals  */
+
+.modal-title{
+  width: fit-content;
+  margin: auto;
+}
+.modal-header .close{
+  margin: -1rem -1rem -1rem 0 !important;
+}
+
+        /* Giftit Modal  */
+.GiftitModalBackground{
+  background-color: #a56d4c6b;
+}
+    /* LonelyFans Modal  */
+.LonelyFansModalBackground{
+  background-color: #4b9efccb;
+}
+
+
+
+
+
 
 @media only screen and (max-width: 1040px) {
   #projects{
