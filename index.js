@@ -1,8 +1,10 @@
 const school_project_drop = document.getElementById("schooldrop")
-const team_project_drop = document.getElementById("teamdrop")
-const personal_project_drop = document.getElementById("personaldrop")
-const school_drop_icon = document.getElementById("school-drop-icon")
 const school_projects = document.getElementById("school-projects")
+const team_project_drop = document.getElementById("teamdrop")
+const team_projects = document.getElementById("team-projects")
+const personal_project_drop = document.getElementById("personaldrop")
+const personal_project     = document.getElementById("personal_projects")
+const school_drop_icon = document.getElementById("school-drop-icon")
 
 
 // HAND mouse hover effect  SCHOOLPROJECTS
@@ -18,8 +20,6 @@ document.addEventListener("mouseout", function(event) {
   }
 });
 
-
-
   // Display  SCHOOLPROJECTS
 school_project_drop.addEventListener("click", (event) => {
   console.log(event)
@@ -27,6 +27,7 @@ school_project_drop.addEventListener("click", (event) => {
   // school_drop_icon.classList.toggle("fa-solid", "fa-caret-down");
   school_projects.classList.toggle("d-flex")
 })
+
 
 
 
@@ -43,8 +44,20 @@ document.addEventListener("mouseout", function(event) {
     mouseteam.style.display = "none";
   }
 });
+
+// Display  TEAMPROJECTS
+team_project_drop.addEventListener("click", (event) => {
+  console.log(event)
+  // school_drop_icon.classList.remove("fa-solid", "fa-caret-right");
+  // school_drop_icon.classList.toggle("fa-solid", "fa-caret-down");
+  team_projects.classList.toggle("d-flex")
+})
+
+
+
+
 // HAND mouse hover effect  PERSONALPROJECTS
-const mousepersonal = document.getElementById("mouse-click-personal")
+const mousepersonal         = document.getElementById("mouse-click-personal")
 personal_project_drop.addEventListener("mouseover", function(event) {
   if (event.target.className === "personal") {
     mousepersonal.style.display = "block";
@@ -56,6 +69,7 @@ document.addEventListener("mouseout", function(event) {
     mousepersonal.style.display = "none";
   }
 });
+
 
 // // GITHUB mouse hover effect
 // const ghlogoOG = document.getElementById("profile-link")
