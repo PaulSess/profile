@@ -1,0 +1,50 @@
+
+
+        /* NAVBAR */
+
+        
+#navbar{
+  height: 82px;
+  background-color: #262626;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1100;
+  box-shadow: 0 2px 5px rgba(97, 97, 97, 0.727);
+}
+#navbar img{
+  height: 80px;
+}
+.navcodeicon{
+  height: fit-content;
+  margin: auto 20px;
+  color: #000000;
+}
+.navlink{
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  font-size: 28px;
+  color: antiquewhite;
+  font-family: 'Poppins', sans-serif;
+}
+.navlink:hover{
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: 600;
+}
+#profile-link{
+  margin-right: 20px;
+  position: relative;
+}
+#profile-link2{
+  margin-right: 20px;
+  position: absolute;
+  top: 0;
+  right: -25px;
+  display: none;
+
+
+}

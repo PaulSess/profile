@@ -1,0 +1,42 @@
+/* Modals  */
+.modal-content{
+  margin-top: 90px;
+}
+.modal-title{
+  width: fit-content;
+  margin: auto;
+}
+.modal-header .close{
+  margin: -1rem -1rem -1rem 0 !important;
+}
+
+        /* Giftit Modal  */
+.GiftitModalBackground{
+  background-color: #a56d4c6b;
+}
+    /* LonelyFans Modal  */
+.LonelyFansModalBackground{
+  background-color: #4b9efccb;
+}
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: -10;
+}
+.footer-div{
+  position: relative;
+}
+#footer-img{
+  width: 100%;
+}
+.contact-me{
+  color: #fbd918;
+  font-family: ;
+  font-size: 73px;
+  position: absolute;
+  /* top: 484px; */
+  bottom: 90px;
+  left: 627px;
+  text-shadow: 2px 2px 2px #000000;
+}

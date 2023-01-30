@@ -18,95 +18,8 @@ body{
   margin-bottom: 100px;
 }
 
-            /* NAVBAR */
-#navbar{
-  height: 82px;
-  background-color: #262626;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  z-index: 1100;
-}
-#navbar img{
-  height: 80px;
-}
-.navcodeicon{
-  height: fit-content;
-  margin: auto 20px;
-  color: #000000;
-}
-.navlink{
-  width: fit-content;
-  height: fit-content;
-  margin: auto;
-  font-size: 28px;
-  color: antiquewhite;
-  font-family: 'Poppins', sans-serif;
-}
-.navlink:hover{
-  color: antiquewhite;
-  text-decoration: none;
-  font-weight: 600;
-}
-#profile-link{
-  margin-right: 20px;
-  position: relative;
-}
-#profile-link2{
-  margin-right: 20px;
-  position: absolute;
-  top: 0;
-  right: -25px;
-  display: none;
-
-
-}
-
-            /* Welcome section  */
-#welcome-section{
-  background-image: url("https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80");
-  background-attachment: fixed;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-}
-#welcome-section h1{
-  color: antiquewhite;
-  font-family: 'Martian Mono', monospace;
-  font-size: 48px;
-  position: absolute;
-  top: 300px;
-  left: 40px;
-}
-#welcome-section h2{
-  color: antiquewhite;
-  font-family: 'Martian Mono', monospace;
-  font-size: 48px;
-  position: absolute;
-  top: 300px;
-  left: 40px;
-}
-#welcome-section h2{
-  top: 400px;
-}
-#paul{
-  color: antiquewhite;
-}
-
-
-
-
-
-
               /* Project section  */
-/* #projects{
-  display: flex;
-  justify-content: space-around;
-  margin: 100px 0;
-  background-color: #5f5f5f;
-} */
+
 .project-div{
   width: 400px;
   height: 300px;
@@ -183,49 +96,18 @@ body{
   display: none;
 }
 
+      /* Contact modal  */
+#contact-footer{
+  background-color: #5f5f5f !important;
+}
+#contact-modal-header{
+  background-color: #5f5f5f !important;
+
+}
 
 
 
-/* Modals  */
 
-.modal-title{
-  width: fit-content;
-  margin: auto;
-}
-.modal-header .close{
-  margin: -1rem -1rem -1rem 0 !important;
-}
-
-        /* Giftit Modal  */
-.GiftitModalBackground{
-  background-color: #a56d4c6b;
-}
-    /* LonelyFans Modal  */
-.LonelyFansModalBackground{
-  background-color: #4b9efccb;
-}
-
-footer{
-  width: 100%;
-  position: absolute;
-  bottom: -10;
-}
-.footer-div{
-  position: relative;
-}
-#footer-img{
-  width: 100%;
-}
-.contact-me{
-  color: #fbd918;
-  font-family: ;
-  font-size: 73px;
-  position: absolute;
-  /* top: 484px; */
-  bottom: 90px;
-  left: 627px;
-  text-shadow: 2px 2px 2px #000000;
-}
 
 
 @media only screen and (max-width: 1040px) {
