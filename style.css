@@ -99,14 +99,24 @@ body{
       /* Contact modal  */
 #contact-footer{
   background-color: #5f5f5f !important;
+  border-radius: 0 0 20px 20px;
 }
 #contact-modal-header{
   background-color: #5f5f5f !important;
+  align-items: center !important;
+  border-radius: 20px 0 0px 0px;
+}
+.w3-modal-content{
+  border-radius: 20px 0 0 0;
+}
+.fcf-form-class{
+  width: fit-content;
+  margin: auto;
+}
+#fcf-button{
+  border: 0px;
 
 }
-
-
-
 
 
 
