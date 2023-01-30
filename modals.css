@@ -23,6 +23,7 @@ footer{
   width: 100%;
   position: absolute;
   bottom: -10;
+  left: 0px;
 }
 .footer-div{
   position: relative;
@@ -37,6 +38,19 @@ footer{
   position: absolute;
   /* top: 484px; */
   bottom: 90px;
-  left: 627px;
+  left: 40%;
   text-shadow: 2px 2px 2px #000000;
 }
+
+
+
+@media only screen and (max-width: 870px) {
+  .contact-me{
+    left: 30%;
+    font-size: 60px;
+    bottom: 5%;
+  }
+@media only screen and (max-width: 501px) {
+  .contact-me{
+    font-size: 40px;
+  }
