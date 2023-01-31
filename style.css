@@ -77,6 +77,9 @@ body{
 #team-projects{
   display: none;
 }
+.project-logo-prev{
+  width: 200px;
+}
 
       /* personal projects from scratch  */
 #personaldrop{

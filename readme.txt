@@ -5,9 +5,9 @@ www.majesticform.com
 Free Version
 19 October 2022
 
-You are free to use and edit for 
+You are free to use and edit for
 your own use. But you cannot resell
-or repackage in any way, and you cannot 
+or repackage in any way, and you cannot
 remove the credit link back to majesticform.com
 ****************************************************************************
 
@@ -15,7 +15,10 @@ remove the credit link back to majesticform.com
 Thank you for picking majesticform.com
 
 For details on adding this to your website, please see:
-
+-----
+This OG link
+https://www.majesticform.com/forms/contact-form-free
+-------
 https://www.majesticform.com/form-guides/contact-form-installation-free
 
 
@@ -31,7 +34,7 @@ Quick guide below:
     6. Upload ALL files (including the folder fcf-assets to your website)
 
 
-More detailed installation details can be found at: 
+More detailed installation details can be found at:
 
 https://www.majesticform.com/form-guides/contact-form-installation-free
 
