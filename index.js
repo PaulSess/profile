@@ -1,10 +1,10 @@
-const school_project_drop = document.getElementById("schooldrop")
-const school_projects = document.getElementById("school-projects")
-const team_project_drop = document.getElementById("teamdrop")
-const team_projects = document.getElementById("team-projects")
+const school_project_drop   = document.getElementById("schooldrop")
+const school_projects       = document.getElementById("school-projects")
+const team_project_drop     = document.getElementById("teamdrop")
+const team_projects         = document.getElementById("team-projects")
 const personal_project_drop = document.getElementById("personaldrop")
-const personal_project     = document.getElementById("personal_projects")
-const school_drop_icon = document.getElementById("school-drop-icon")
+const personal_project      = document.getElementById("personal_projects")
+const school_drop_icon      = document.getElementById("school-drop-icon")
 
 
 // HAND mouse hover effect  SCHOOLPROJECTS
@@ -22,10 +22,13 @@ document.addEventListener("mouseout", function(event) {
 
   // Display  SCHOOLPROJECTS
 school_project_drop.addEventListener("click", (event) => {
-  console.log(event)
-  // school_drop_icon.classList.remove("fa-solid", "fa-caret-right");
-  // school_drop_icon.classList.toggle("fa-solid", "fa-caret-down");
-  school_projects.classList.toggle("d-flex")
+  // console.log(event)
+  if ($(window).width() < 1042) {
+    school_projects.classList.toggle("d-block")
+ }
+  if ($(window).width() > 1042) {
+   school_projects.classList.toggle("d-flex")
+ }
 })
 
 
@@ -47,10 +50,14 @@ document.addEventListener("mouseout", function(event) {
 
 // Display  TEAMPROJECTS
 team_project_drop.addEventListener("click", (event) => {
-  console.log(event)
-  // school_drop_icon.classList.remove("fa-solid", "fa-caret-right");
-  // school_drop_icon.classList.toggle("fa-solid", "fa-caret-down");
-  team_projects.classList.toggle("d-flex")
+  // console.log(event)
+  if ($(window).width() < 1042) {
+    team_projects.classList.toggle("d-block")
+ }
+  if ($(window).width() > 1042) {
+    team_projects.classList.toggle("d-flex")
+  }
+  // team_projects.classList.toggle("d-flex")
 })
 
 
@@ -69,6 +76,19 @@ document.addEventListener("mouseout", function(event) {
     mousepersonal.style.display = "none";
   }
 });
+
+//       // dispaly personal_projects
+// personal_project_drop.addEventListener("click", (event) => {
+//   // if ($(window).width() < 1042) {
+//   //   personal_project.classList.toggle("d-block")
+//   // }
+//   // if ($(window).width() > 1042) {
+//   //   personal_project.classList.toggle("d-flex")
+//   // }
+//   // personal_project.classList.toggle("d-none")
+//   personal_project.classList.toggle("d-block")
+// }) //to be made when the modal works
+
 
 
 // // GITHUB mouse hover effect
