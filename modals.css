@@ -22,6 +22,10 @@
 .RecruitmentModalBackground{
   background-color: #ece3fb67;
 }
+    /* googreen Modal  */
+.GogreenModalBackground{
+  background-color: rgba(120, 122, 110, 0.5);
+}
 
 footer{
   width: 100%;
