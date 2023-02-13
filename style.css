@@ -81,6 +81,7 @@ body{
 }
 #team-projects{
   display: none;
+  margin-bottom: 200px;
 }
 .project-logo-prev{
   width: 200px;
