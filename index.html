@@ -57,7 +57,37 @@
     </button> -->
       <!-- -------------  -->
 
+<div class="container">
+  <h2 class="object" data-value="3">Tech Stack</h2>
+  <img src="./images/techstack/bootstrap-img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/css img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/figma-img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/git-img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/github-img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/google-lighthouse-img.svg" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/heroku-img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/html-img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/jQuery-img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/js-img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/rails-img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/react-img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/ruby-img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/webpack-img.png" class="object" data-value="" alt="tech stack image">
+  <img src="./images/techstack/yarn-img.png" class="object" data-value="" alt="tech stack image">
+</div>
+<script type="text/javascript">
+  document.addEventListener("mousemove", parallax);
+  function parallax(e){
+    document.querySelectorAll(".object").forEach(function(move){
 
+      var moving_value = move.getAttribute("data-value");
+      var x = (e.clientX * moving_value) / 250;
+      var y = (e.clientY * moving_value) / 250;
+
+      move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
+    });
+  }
+  </script>
 
 
               <!-- PROJECT SECTION  -->
