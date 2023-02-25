@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- stylesheets  -->
   <link rel="stylesheet" href="./stylesheets/style.css">
+  <link rel="stylesheet" href="./stylesheets/welcome-animation.css">
   <link rel="stylesheet" href="./stylesheets/techstack.css">
   <link rel="stylesheet" href="contact-form.css">
   <link rel="stylesheet" href="/stylesheets/navbar.css">
@@ -32,116 +33,38 @@
   <title>Portfolio page</title>
 </head>
 
-
-
-
+<body>
       <!-- NAVBAR  -->
-<!-- <nav id="navbar">
-  <i class="fa-solid fa-code navcodeicon" style="font-size: 50px;"></i>
-  <a class="navlink" href="#projects">Projects</a>
-    <a target="_blank" href="https://github.com/PaulSess"><img src="./images/github.svg" alt="github link"></a>
-</nav> -->
+      <nav id="navbar">
+        <i class="fa-solid fa-code navcodeicon" style="font-size: 50px;"></i>
+        <a class="navlink" href="#projects"><i class="fa-solid fa-angles-right" style="font-size: 23px;"></i>Projects</a>
+        <a class="github-nav" target="_blank" href="https://github.com/PaulSess"><img src="./images/github.svg" alt="github link"></a>
+      </nav>
            <!-- ----------  -->
 
-
-<header>
-  <nav>
-    <h3 id="logo">Dream Vacation</h3>
-    <img src="3" alt="">
-  </nav>
-</header>
-
+      <!-- starting animation  -->
 <section id="start-animation-section">
   <div class="hero">
     <img src="./images/david-schultz-bg-img.jpg" alt="">
     <div id="boxsh"></div>
-    <h1 id="hello">Hello, I'm Paul</h1>
+    <h1 id="hello-h1">Hello, I'm <a id="paul" target="_blank" href="https://www.linkedin.com/in/paul-sess/">Paul</a></h1>
+    <h2 id="webdev-h2">I'm a junior web developer</h2>
   </div>
 </section>
 
 <div class="slider"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"
-integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"
-integrity="sha512-lJDBw/vKlGO8aIZB8/6CY4lV+EMAL3qzViHid6wXjH/uDrqUl+uvfCROHXAEL0T/bgdAQHSuE68vRlcFHUdrUw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  integrity="sha512-lJDBw/vKlGO8aIZB8/6CY4lV+EMAL3qzViHid6wXjH/uDrqUl+uvfCROHXAEL0T/bgdAQHSuE68vRlcFHUdrUw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </script>
-<script>
-  const hero = document.querySelector('.hero');
-  const slider = document.querySelector('.slider');
-  const logo = document.querySelector('#logo');
-  const hello = document.querySelector('#hello');
+<script src="welcome-animation.js"></script>
 
-  const tl = new TimelineMax();
-
-  tl.fromTo(hero,1, { height: "0%" }, { height: "80%" })
-</script>
-<style>
-  .slider{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(to left, #5f5f5f, #a69090);
-    z-index: -1;
-  }
-  nav{
-    display: grid;
-    grid-template-columns: 10% 1fr 1fr 10%;
-    min-height: 10vh;
-    color: white;
-  }
-  #start-animation-section{
-    display: flex;
-    height: 80vh;
-    justify-content: center;
-    align-items: center;
-  }
-  .hero{
-    height: 60%;
-    width: 100%;
-    background-color: #5f5f5f;
-    position: relative;
-  }
-  .hero::after{
-    content: '';
-    background: black;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    opacity: 0.2;
-    top: 0;
-  }
-  .hero img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  #hello{
-    position: absolute;
-    top: 70%;
-    left: 10%;
-    font-family: 'Martian Mono', monospace;
-    font-size: 50px;
-    transform: translate(-20%, -70%);
-    color: whitesmoke;
-    z-index: 3;
-  }
-  #boxsh{
-    box-shadow: 0px 0px 5px 5px #5f5f5f inset;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-  }
-</style>
+           <!-- ----------  -->
 
           <!-- WELCOME SECTION  -->
-<body>
   <!-- <section id="welcome-section">
       <h1>Hi, my name is <a id="paul" target="_blank" href="https://www.linkedin.com/in/paul-sess/">Paul</a></h1>
       <h2>and I'm a Web developer</h2>

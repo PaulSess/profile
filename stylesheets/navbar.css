@@ -2,14 +2,12 @@
         /* NAVBAR */
 #navbar{
   height: 82px;
-  background-color: #262626;
+  background-color: #181818;
   position: fixed;
   width: 100%;
   top: 0;
   display: flex;
-  justify-content: space-between;
   z-index: 1100;
-  box-shadow: 0 2px 5px rgba(97, 97, 97, 0.727);
 }
 #navbar img{
   height: 80px;
@@ -22,10 +20,15 @@
 .navlink{
   width: fit-content;
   height: fit-content;
-  margin: auto;
+  margin: auto 0 auto 7%;
   font-size: 28px;
   color: antiquewhite;
   font-family: 'Poppins', sans-serif;
+}
+.github-nav{
+  position: absolute;
+  right: 10px;
+  top: 2px;
 }
 .navlink:hover{
   color: antiquewhite;
@@ -42,6 +45,4 @@
   top: 0;
   right: -25px;
   display: none;
-
-
 }
