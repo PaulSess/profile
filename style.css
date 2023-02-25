@@ -5,63 +5,23 @@
   font-size: 16px;
   line-height: 17px;
 } */
-.container{
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.container img{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  object-fit: contain;
-}
-
-.container h2{
-  z-index: 1;
-  position: relative;
-  color: #fff;
-  font-size: 90px;
-  text-transform: uppercase;
-  font-weight: 900;
-  letter-spacing: 32px;
-  line-height: 60px;
-}
-
-.container h2 span{
-  font-size: 48px;
-  font-weight: 500;
-  letter-spacing: 10px;
-}
-
-@media (max-width:800px){
-  .container h2{
-    font-size: 60px;
-    letter-spacing: 19px;
-    line-height: 35px;
-  }
-
-  .container h2 span{
-    font-size: 26px;
-  }
-}
-      
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 html{
   margin: 0 !important;
+  padding: 0;
   background-color: #5f5f5f;
-  margin-bottom: 100px;
+
   position: relative;
 }
 body{
   margin: 0 0 1300 0;
-  background-color: #5f5f5f !important;
+  /* background-color: #5f5f5f !important; */
+  background: rgb(24,25,25);
+  background: linear-gradient(0deg, rgba(24,25,25,1) 0%, rgba(48,49,49,1) 23%, rgba(96,97,101,1) 60%, rgba(95,95,95,1) 100%);
   margin-bottom: 100px;
 }
 

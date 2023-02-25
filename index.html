@@ -18,11 +18,12 @@
   <!-- carousel  -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- stylesheets  -->
-  <link rel="stylesheet" href="./style.css">
-  <link href="contact-form.css" rel="stylesheet">
-  <link href="navbar.css" rel="stylesheet">
-  <link href="welcome-section.css" rel="stylesheet">
-  <link href="modals.css" rel="stylesheet">
+  <link href="./style.css"          rel="stylesheet">
+  <link href="./techstack.css"      rel="stylesheet">
+  <link href="contact-form.css"     rel="stylesheet">
+  <link href="navbar.css"           rel="stylesheet">
+  <link href="welcome-section.css"  rel="stylesheet">
+  <link href="modals.css"           rel="stylesheet">
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
@@ -56,50 +57,51 @@
       Launch demo modal
     </button> -->
       <!-- -------------  -->
+<section id="techstack">
+  <div class="container">
+    <h2 class="object" data-value="1">Tech Stack</h2>
+    <img src="./images/techstack/bootstrap-img.png"     class="object stack" data-value="-2" alt="tech stack image">
+    <img src="./images/techstack/css img.png"           class="object stack" data-value="6" alt="tech stack image">
+    <img src="./images/techstack/figma-img.png"         class="object stack" data-value="4" alt="tech stack image">
+    <img src="./images/techstack/git-img.png"           class="object stack" data-value="-6" alt="tech stack image">
+    <img src="./images/techstack/github-img.png"        class="object stack" data-value="8" alt="tech stack image">
+    <img src="./images/techstack/google-lighthouse-img.svg" class="object stack" data-value="-4" alt="tech stack image">
+    <img src="./images/techstack/heroku-img.png"        class="object stack" data-value="5" alt="tech stack image">
+    <img src="./images/techstack/html-img.png"          class="object stack" data-value="-9" alt="tech stack image">
+    <img src="./images/techstack/jQuery-img.png"        class="object stack" data-value="-5" alt="tech stack image">
+    <img src="./images/techstack/js-img.png"            class="object stack" data-value="-6" alt="tech stack image">
+    <img src="./images/techstack/rails-img.png"         class="object stack" data-value="3" alt="tech stack image">
+    <img src="./images/techstack/react-img.png"         class="object stack" data-value="19" alt="tech stack image">
+    <img src="./images/techstack/ruby-img.png"          class="object stack" data-value="-16" alt="tech stack image">
+    <img src="./images/techstack/webpack-img.png"       class="object stack" data-value="5" alt="tech stack image">
+    <img src="./images/techstack/yarn-img.png"          class="object stack" data-value="7" alt="tech stack image">
+  </div>
+  <script type="text/javascript">
+    document.addEventListener("mousemove", parallax);
+    function parallax(e){
+      document.querySelectorAll(".object").forEach(function(move){
 
-<div class="container">
-  <h2 class="object" data-value="3">Tech Stack</h2>
-  <img src="./images/techstack/bootstrap-img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/css img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/figma-img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/git-img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/github-img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/google-lighthouse-img.svg" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/heroku-img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/html-img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/jQuery-img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/js-img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/rails-img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/react-img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/ruby-img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/webpack-img.png" class="object" data-value="" alt="tech stack image">
-  <img src="./images/techstack/yarn-img.png" class="object" data-value="" alt="tech stack image">
-</div>
-<script type="text/javascript">
-  document.addEventListener("mousemove", parallax);
-  function parallax(e){
-    document.querySelectorAll(".object").forEach(function(move){
+        var moving_value = move.getAttribute("data-value");
+        var x = (e.clientX * moving_value) / 250;
+        var y = (e.clientY * moving_value) / 250;
 
-      var moving_value = move.getAttribute("data-value");
-      var x = (e.clientX * moving_value) / 250;
-      var y = (e.clientY * moving_value) / 250;
-
-      move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
-    });
-  }
+        move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
+      });
+    }
   </script>
+  </section>
 
 
-              <!-- PROJECT SECTION  -->
+<!-- PROJECT SECTION  -->
 
 <section id="projects">
 
-    <h1 id="schooldrop" class="sp">School Projects <img id="mouse-click1" class="mouse-click1" src="./images/Click-mouse.png" alt="mouseclick"></h1>
-    <div id="school-projects">
+  <h1 id="schooldrop" class="sp">School Projects <img id="mouse-click1" class="mouse-click1" src="./images/Click-mouse.png" alt="mouseclick"></h1>
+  <div id="school-projects">
 
       <!-- Giftit     -->
-    <div class="project-div">
-      <div id="carouselFirstIndicators" class="carousel slide" data-ride="carousel" data-interval="10000" data-toggle="modal" data-target="#exampleModal">
+      <div class="project-div">
+        <div id="carouselFirstIndicators" class="carousel slide" data-ride="carousel" data-interval="10000" data-toggle="modal" data-target="#exampleModal">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="./images/giftit/landingpage giftit.png" alt="First slide">
