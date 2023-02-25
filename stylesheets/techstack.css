@@ -128,17 +128,12 @@
   z-index: 1;
   position: relative;
   color: #fff;
-
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow:  1px 1px 7px  #851f1f;
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 32px;
   line-height: 60px;
-}
-
-.container h2 span{
-  font-size: 48px;
-  font-weight: 500;
-  letter-spacing: 10px;
 }
 
 @media (max-width:800px){
