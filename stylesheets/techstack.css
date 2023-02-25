@@ -22,8 +22,6 @@
   width: 20%;
   height: 20%;
   object-fit: contain;
-  /* box-shadow: 2px 2px 15px 2px  #ffffffc1; */
-  /* text-shadow:  2px 15px 2px  #fff; */
 }
 .stack:nth-child(2){
   top: 1%;
@@ -38,26 +36,30 @@
 }
 .stack:nth-child(4){
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: -10%;
   object-fit: contain;
 }
 .stack:nth-child(5){
   position: absolute;
   top: 6%;
-  left: 40%;
+  left: 44%;
+  width: 15%;
+  height: 15%;
   object-fit: contain;
 }
 .stack:nth-child(6){
   position: absolute;
   top: 40%;
-  left: -6%;
+  left: 6%;
   object-fit: contain;
 }
 .stack:nth-child(7){
   position: absolute;
   top: 75%;
   left: 20%;
+  width: 15%;
+  height: 15%;
   object-fit: contain;
 }
 .stack:nth-child(8){
@@ -68,8 +70,8 @@
 }
 .stack:nth-child(9){
   position: absolute;
-  top: 20%;
-  left: 80%;
+  top: 7%;
+  left: 75%;
   object-fit: contain;
 }
 .stack:nth-child(10){
@@ -92,14 +94,14 @@
 }
 .stack:nth-child(13){
   position: absolute;
-  top: 60%;
-  left: 87%;
+  top: 40%;
+  left: 85%;
   object-fit: contain;
 }
 .stack:nth-child(14){
   position: absolute;
   top: 76%;
-  left: -9%;
+  left: -6%;
   object-fit: contain;
 }
 .stack:nth-child(15){
@@ -111,6 +113,12 @@
 .stack:nth-child(16){
   position: absolute;
   top: 20%;
+  left: 23%;
+  object-fit: contain;
+}
+.stack:nth-child(17){
+  position: absolute;
+  top: 70%;
   left: 23%;
   object-fit: contain;
 }
