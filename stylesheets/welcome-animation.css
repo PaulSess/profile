@@ -64,3 +64,25 @@
   top: 0;
   left: 0;
 }
+#blob{
+  position: absolute;
+  left: 650px;
+  top: 64px;
+  width: 600px;
+  height: auto;
+  display: none;
+}
+#me{
+  position: absolute;
+  left: 847px;
+  top: 104px;
+  width: 200px;
+  height: auto;
+  display: none;
+}
+.d-none{
+  display: none;
+}
+.d-block{
+  display: block;
+}
