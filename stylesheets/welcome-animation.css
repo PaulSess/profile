@@ -10,10 +10,13 @@
 
 #start-animation-section{
   display: flex;
-  height: 80vh;
+  height: 85vh;
   justify-content: center;
   align-items: center;
   margin-top: 5%;
+  background: rgb(125,126,126);
+  background: linear-gradient(0deg, rgba(125,126,126,0) 0%, rgba(24,24,24,1) 10%);
+
 }
 .hero{
   height: 60%;

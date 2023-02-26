@@ -140,6 +140,27 @@
        animation: circling 4s linear infinite; /* Chrome, Firefox 16+,
                                                  IE 10+, Safari 5 */
 }
+.pyramids{
+  /* z-index: 9; */
+  transform: translateX(-600px);
+  transition: 0.8s;
+}
+
+.palace{
+  /* z-index: 9; */
+  transform: translateX(600px);
+  transition: 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:800px){
   .container{
