@@ -46,3 +46,18 @@ function parallax(e){
         info.style.transition = "0.6s";
       }
     }
+
+      //flying in by scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    });
+
+    const hiddenElements = document.querySelectorAll('.hiddenleft')
+    const hiddenElements2 = document.querySelectorAll('.hiddenright')
+    hiddenElements.forEach((el) => observer.observe(el));
+    hiddenElements2.forEach((el) => observer.observe(el));

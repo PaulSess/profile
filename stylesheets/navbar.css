@@ -24,6 +24,7 @@
   font-size: 28px;
   color: antiquewhite;
   font-family: 'Poppins', sans-serif;
+  transition-delay: 3000ms;
 }
 .github-nav{
   position: absolute;
