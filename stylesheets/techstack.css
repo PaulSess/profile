@@ -134,6 +134,11 @@
   font-weight: 900;
   letter-spacing: 32px;
   line-height: 60px;
+  -webkit-animacircling 4s linear infinite; /* Chrome, Safari 5 */
+  -moz-animation: circling 4s linear infinite; /* Firefox 5-15 */
+    -o-animation: circling 4s linear infinite; /* Opera 12+ */
+       animation: circling 4s linear infinite; /* Chrome, Firefox 16+,
+                                                 IE 10+, Safari 5 */
 }
 
 @media (max-width:800px){
@@ -156,4 +161,25 @@
     letter-spacing: 19px;
     line-height: 35px;
   }
+}
+
+
+@-webkit-keyframes circling {
+  from { -webkit-transform: rotate(0deg) translateX(5px) rotate(0deg); }
+  to   { -webkit-transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+
+@-moz-keyframes circling {
+  from { -moz-transform: rotate(0deg) translateX(5px) rotate(0deg); }
+  to   { -moz-transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+
+@-o-keyframes circling {
+  from { -o-transform: rotate(0deg) translateX(5px) rotate(0deg); }
+  to   { -o-transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+
+@keyframes circling {
+  from { transform: rotate(0deg) translateX(5px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(5px) rotate(-360deg); }
 }
