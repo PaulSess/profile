@@ -27,6 +27,7 @@
   top: 1%;
   left: 10%;
   object-fit: contain;
+
 }
 .stack:nth-child(3){
   position: absolute;
