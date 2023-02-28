@@ -19,22 +19,30 @@
     //   paul.classList.add("d-block");
     //   paul.classList.remove("d-none");
     // });
-    const blob = document.querySelector('#blob');
+
+
+
+      // bringing my image on hover in
+    const blob = document.querySelector('.blob');
     const me = document.querySelector('#me');
+    const Thatsme = document.querySelector('#Thats-me-SVG');
 
     paul.addEventListener("mouseover", function(event) {
       const firstdelay = 50;
       const seconddelay = 150;
       setTimeout(function() {
+        me.style.display = "block";
         blob.style.display = "block";
       }, firstdelay);
       setTimeout(function() {
-        me.style.display = "block";
+        // me.style.display = "block";
+        Thatsme.style.display = "block";
       }, seconddelay);
 
     });
     paul.addEventListener("mouseout", function(event) {
       me.style.display = "none";
       blob.style.display = "none";
+      Thatsme.style.display = "none";
 
     });

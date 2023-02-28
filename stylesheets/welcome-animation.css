@@ -67,13 +67,30 @@
   top: 0;
   left: 0;
 }
-#blob{
+.blob{
   position: absolute;
-  left: 650px;
-  top: 64px;
+  left: 55%;
+  top: 0px;
   width: 600px;
   height: auto;
   display: none;
+  animation-name: spin;
+  animation-duration: 30000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */
+   /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
 }
 #me{
   position: absolute;
@@ -82,6 +99,7 @@
   width: 200px;
   height: auto;
   display: none;
+  border-radius: 50%;
 }
 .d-none{
   display: none;
