@@ -107,3 +107,6 @@
 .d-block{
   display: block;
 }
+.animate__animated.animate__shakeY {
+  --animate-duration: 3s;
+}

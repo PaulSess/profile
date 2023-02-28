@@ -46,3 +46,11 @@
       Thatsme.style.display = "none";
 
     });
+
+    const scroll = document.querySelector('.scroll-down')
+    window.addEventListener("load", (event) => {
+      const scrolldelay = 5000;
+      setTimeout(function(){
+        scroll.classList.add('animate__animated', 'animate__shakeY')
+      }, scrolldelay);
+    });
