@@ -45,6 +45,7 @@
     paul.addEventListener("mouseout", function(event) {
       me.style.display = "none";
       blob.style.display = "none";
+      arrow.style.display = "none";
       Thatsme.style.display = "none";
 
     });
@@ -56,5 +57,3 @@
         scroll.classList.add('animate__animated', 'animate__shakeY')
       }, scrolldelay);
     });
-
-

@@ -1,10 +1,11 @@
 #techstack{
   margin: 5% 0;
+  padding: 7% 0 0 0;
   /* background: url(./images/techstack/joshua-sortino-LqKhnDzSF-8-unsplash.jpg)no-repeat;
   background-size: cover; */
   /* background: rgb(116,124,173); */
 /* background: radial-gradient(circle, rgba(116,124,173,1) 0%, rgba(95,95,95,1) 86%); */
-  height: 55vh;
+  height: 65vh;
   width: 100%;
 }
 .container{
@@ -140,17 +141,6 @@
     -o-animation: circling 4s linear infinite; /* Opera 12+ */
        animation: circling 4s linear infinite; /* Chrome, Firefox 16+,
                                                  IE 10+, Safari 5 */
-}
-.pyramids{
-  /* z-index: 9; */
-  transform: translateX(-600px);
-  transition: 0.8s;
-}
-
-.palace{
-  /* z-index: 9; */
-  transform: translateX(600px);
-  transition: 0.8s;
 }
 
 
