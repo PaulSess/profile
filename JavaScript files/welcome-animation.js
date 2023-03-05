@@ -26,12 +26,14 @@
     const blob = document.querySelector('.blob');
     const me = document.querySelector('#me');
     const Thatsme = document.querySelector('#Thats-me-SVG');
+    const arrow = document.querySelector('#arrow');
 
     paul.addEventListener("mouseover", function(event) {
       const firstdelay = 50;
       const seconddelay = 150;
       setTimeout(function() {
         me.style.display = "block";
+        arrow.style.display = "block";
         blob.style.display = "block";
       }, firstdelay);
       setTimeout(function() {
@@ -54,3 +56,5 @@
         scroll.classList.add('animate__animated', 'animate__shakeY')
       }, scrolldelay);
     });
+
+
