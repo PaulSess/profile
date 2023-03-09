@@ -1,4 +1,4 @@
-const school_project_drop   = document.getElementById("schooldrop")
+const giftit_carousel       = document.getElementById("giftit-carousel")
 const school_projects       = document.getElementById("school-projects")
 const team_project_drop     = document.getElementById("teamdrop")
 const team_projects         = document.getElementById("team-projects")
@@ -9,7 +9,7 @@ const school_drop_icon      = document.getElementById("school-drop-icon")
 
 // HAND mouse hover effect  SCHOOLPROJECTS
 const mouse1 = document.getElementById("mouse-click1")
-school_project_drop.addEventListener("mouseover", function(event) {
+giftit_carousel.addEventListener("mouseover", function(event) {
   if (event.target.className === "sp") {
     mouse1.style.display = "block";
   }
