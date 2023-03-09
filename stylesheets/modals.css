@@ -14,18 +14,28 @@
 .GiftitModalBackground{
   background-color: #a56d4c6b;
 }
+
     /* LonelyFans Modal  */
 .LonelyFansModalBackground{
   background-color: #d7eaff;
 }
+
+    /* Deforestation Modal  */
+.DeforestationModalBackground{
+  /* background-color: #7fba72ee; */
+  background-color: #fff4e0;
+}
+
     /* Headtrade Modal  */
 .RecruitmentModalBackground{
   background-color: #fdfcff;
 }
+
     /* googreen Modal  */
 .GogreenModalBackground{
   background-color: rgb(175, 180, 148);
 }
+
 
 footer{
   width: 100%;
