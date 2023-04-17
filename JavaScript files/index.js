@@ -1,4 +1,4 @@
-const giftit_carousel       = document.getElementById("giftit-carousel")
+const giftit_carousel       = document.getElementById("carouselFirstIndicators")
 const school_projects       = document.getElementById("school-projects")
 const team_project_drop     = document.getElementById("teamdrop")
 const team_projects         = document.getElementById("team-projects")
@@ -7,16 +7,17 @@ const personal_project      = document.getElementById("personal_projects")
 const school_drop_icon      = document.getElementById("school-drop-icon")
 
 
+
 // HAND mouse hover effect  SCHOOLPROJECTS
-const mouse1 = document.getElementById("mouse-click1")
+const giftitmouse           = document.getElementById("mouse-click-giftit")
 giftit_carousel.addEventListener("mouseover", function(event) {
   if (event.target.className === "sp") {
-    mouse1.style.display = "block";
+    giftitmouse.style.display = "block";
   }
 });
-document.addEventListener("mouseout", function(event) {
+giftit_carousel.addEventListener("mouseout", function(event) {
   if (event.target.className === "sp") {
-    mouse1.style.display = "none";
+    giftitmouse.style.display = "none";
   }
 });
 
@@ -77,31 +78,4 @@ document.addEventListener("mouseout", function(event) {
   }
 });
 
-//       // dispaly personal_projects
-// personal_project_drop.addEventListener("click", (event) => {
-//   // if ($(window).width() < 1042) {
-//   //   personal_project.classList.toggle("d-block")
-//   // }
-//   // if ($(window).width() > 1042) {
-//   //   personal_project.classList.toggle("d-flex")
-//   // }
-//   // personal_project.classList.toggle("d-none")
-//   personal_project.classList.toggle("d-block")
-// }) //to be made when the modal works
-
-
-
-// // GITHUB mouse hover effect
-// const ghlogoOG = document.getElementById("profile-link")
-// ghlogoOG.addEventListener("mouseover", function(event) {
-//   if (event.target.className === "showgh") {
-//     document.getElementById("profile-link2").style.display = "block";
-//     // ghlogoOG.style.display = "none";
-//   }
-// });
-
-// document.addEventListener("mouseout", function(event) {
-//   if (event.target.className === "showgh") {
-//     document.getElementById("profile-link1").style.display = "none";
-//   }
-// });
+  
