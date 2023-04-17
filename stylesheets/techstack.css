@@ -124,6 +124,12 @@
   left: 30%;
   object-fit: contain;
 }
+.stack:nth-child(18){
+  position: absolute;
+  top: 74%;
+  left: 83%;
+  object-fit: contain;
+}
 
 
 .container h2{
