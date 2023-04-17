@@ -80,6 +80,7 @@
 #personal-projects{
   /* display: none; */
   margin-bottom: 200px;
+  display: flex;
 }
 #mouse-click-personal{
   width: 90px;
