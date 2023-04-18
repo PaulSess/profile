@@ -38,9 +38,11 @@
 
     /* SanRegret Modal  */
 .SanRegretModalBackground{
-  background-color: #fdfcff;
+  background-color: #0c0c0c;
 }
-
+#SanRegretModalText{
+  color: whitesmoke;
+}
     /* googreen Modal  */
 .GogreenModalBackground{
   background-color: rgb(175, 180, 148);
