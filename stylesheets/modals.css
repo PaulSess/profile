@@ -31,6 +31,16 @@
   background-color: #fdfcff;
 }
 
+    /* Tomers vinyl Modal  */
+.TomersModalBackground{
+  background-color: #8f7146b4;
+}
+
+    /* SanRegret Modal  */
+.SanRegretModalBackground{
+  background-color: #fdfcff;
+}
+
     /* googreen Modal  */
 .GogreenModalBackground{
   background-color: rgb(175, 180, 148);
