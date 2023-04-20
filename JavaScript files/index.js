@@ -21,16 +21,16 @@ giftit_carousel.addEventListener("mouseout", function(event) {
   }
 });
 
-  // Display  SCHOOLPROJECTS
-school_project_drop.addEventListener("click", (event) => {
-  // console.log(event)
-  if ($(window).width() < 1042) {
-    school_projects.classList.toggle("d-block")
- }
-  if ($(window).width() > 1042) {
-   school_projects.classList.toggle("d-flex")
- }
-})
+//   // Display  SCHOOLPROJECTS
+// school_project_drop.addEventListener("click", (event) => {
+//   // console.log(event)
+//   if ($(window).width() < 1042) {
+//     school_projects.classList.toggle("d-block")
+//  }
+//   if ($(window).width() > 1042) {
+//    school_projects.classList.toggle("d-flex")
+//  }
+// })
 
 
 
@@ -77,5 +77,3 @@ document.addEventListener("mouseout", function(event) {
     mousepersonal.style.display = "none";
   }
 });
-
-  

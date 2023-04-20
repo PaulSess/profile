@@ -20,6 +20,8 @@
   <!-- bootstrap  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- scrollaction  -->
+    <link rel="stylesheet" href="./stylesheets/scrollaction.css">
   <!-- carousel  -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -139,7 +141,7 @@
       <img src="./images/techstack/webpack-img.png" class="object stack hiddenleft"   data-value="5"  alt="tech stack image">
       <img src="./images/techstack/yarn-img.png"    class="object stack hiddenleft"   data-value="7"  alt="tech stack image">
       <img src="./images/techstack/sql-img.svg"     class="object stack hiddenleft"   data-value="17" alt="tech stack image">
-      <img src="./images/techstack/next.js.svg"     class="object stack hiddenleft"   data-value="17" alt="tech stack image">
+      <img src="./images/techstack/next.js.svg"     class="object stack hiddenright"   data-value="17" alt="tech stack image">
       <img src="./images/techstack/tailwind.svg"     class="object stack hiddenleft"   data-value="6"  alt="tech stack image">
     </div>
     <script src="./JavaScript files/tech-stack.js" type="text/javascript"></script>
@@ -152,15 +154,16 @@
 
   <!-- PROJECT SECTION  -->
 
+  <script defer src="./JavaScript files/scrollaction.js"></script>
   <section id="projects">
 
-    <h1 id="schooldrop">School Projects
+    <h1 id="schooldrop" class="hidden">School Projects
       <!-- <img id="mouse-click1" class="mouse-click1" src="./images/Click-mouse.png" alt="mouseclick"> -->
       </h1>
     <div id="school-projects">
 
       <!-- Giftit     -->
-      <div class="project-div" id="giftit-carousel">
+      <div class="project-div hidden" id="giftit-carousel">
         <div id="carouselFirstIndicators" class="sp carousel slide" data-ride="carousel" data-interval="0"
           data-toggle="modal" data-target="#exampleModal">
           <div class="carousel-inner">
@@ -203,7 +206,7 @@
       </div>
 
       <!-- LonelyFans carousel  -->
-      <div class="project-div">
+      <div class="project-div hidden">
         <div id="carouselLonelyfansIndicators" class="carousel slide" data-ride="carousel" data-interval="10300"
           data-toggle="modal" data-target="#LonelyFansModal">
           <div class="carousel-inner">
@@ -243,12 +246,12 @@
 
     <!-- team projects  -->
 
-    <h1 id="teamdrop" class="team">Team Projects </h1>
+    <h1 id="teamdrop" class="team hidden">Team Projects </h1>
     <section id="team-projects">
 
       <!-- deforestation project -->
 
-      <div class="project-div">
+      <div class="project-div hidden">
         <div id="carouselDeforestationIndicators" class="carousel slide" data-ride="carousel" data-interval="10000"
           data-toggle="modal" data-target="#DeforestationModal">
           <div class="carousel-inner">
@@ -296,7 +299,7 @@
       </div>
 
       <!-- headtrade project   -->
-      <div class="project-div">
+      <div class="project-div hidden">
         <div id="carouselRecruitmentIndicators" class="carousel slide" data-ride="carousel" data-interval="10000"
           data-toggle="modal" data-target="#RecruitmentModal">
           <div class="carousel-inner">
@@ -329,14 +332,14 @@
 
 
     <!-- personal projects from scratch  -->
-    <h1 id="personaldrop" class="personal">Personal Projects
+    <h1 id="personaldrop" class="personal hidden">Personal Projects
       <!-- <img id="mouse-click-personal" src="./images/Click-mouse.png" alt="mouseclick"> -->
     </h1>
     <section id="personal-projects">
 
       <!-- tomers vinyl -->
 
-      <div class="project-div">
+      <div class="project-div hidden">
         <div id="carouselTomerIndicators" class="carousel slide" data-ride="carousel" data-interval="10000"
           data-toggle="modal" data-target="#TomersModal">
           <div class="carousel-inner">
@@ -369,7 +372,7 @@
       </div>
 
       <!-- SanRegret -->
-      <div class="project-div">
+      <div class="project-div hidden">
         <div id="carouselSanRegretIndicators" class="carousel slide" data-ride="carousel" data-interval="10000"
           data-toggle="modal" data-target="#SanRegretModal">
           <div class="carousel-inner">
@@ -407,7 +410,7 @@
       </section>
       <!-- go green -->
       <section style="margin-bottom: 400px;">
-        <div class="project-div">
+        <div class="project-div hidden">
           <div id="carouselGogreenIndicators" class="carousel slide" data-ride="carousel" data-interval="10000"
           data-toggle="modal" data-target="#GogreenModal">
           <div class="carousel-inner">
@@ -946,5 +949,4 @@
     </div>
     </footer>
 </body>
-
 </html>

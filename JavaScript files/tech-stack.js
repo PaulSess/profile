@@ -54,14 +54,14 @@ function parallax(e){
       //flying in by scroll
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        console.log(entry)
+        // console.log(entry)
         if (entry.isIntersecting) {
           entry.target.classList.add('show');
         }
       });
     });
 
-    const hiddenElements = document.querySelectorAll('.hiddenleft')
+    const hiddenElements1 = document.querySelectorAll('.hiddenleft')
     const hiddenElements2 = document.querySelectorAll('.hiddenright')
-    hiddenElements.forEach((el) => observer.observe(el));
+    hiddenElements1.forEach((el) => observer.observe(el));
     hiddenElements2.forEach((el) => observer.observe(el));
