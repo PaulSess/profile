@@ -1,0 +1,84 @@
+@media only screen and (max-width: 376px) {
+
+  /* navbar  */
+  #dev-tag {
+    font-size: 36px;
+  }
+  #nav-projects {
+    font-size: 20px;
+  }
+
+  /* welcome section  */
+  #hello-h1 {
+    font-size: 30px;
+    top: 25%;
+    left: 5%;
+  }
+  #paul {
+    font-size: 32px;
+  }
+  #webdev-h2 {
+    font-size: 25px;
+    top: 65%;
+    left: 9%;
+  }
+  #scroll-arrow {
+    left: 43% !important;
+  }
+
+  /* techstack  */
+  #techstack {
+    margin-top: 22%;
+  }
+  #techstack > .container {
+    font-size: 16px;
+    letter-spacing: 13px;
+  }
+  #techstack > .container > img {
+    width: 13%;
+  }
+
+  /* project-section  */
+  #projects {
+    margin-top: 94px;
+  }
+  .projectheader {
+    margin: 20px !important;
+  }
+  .project-div {
+    margin: 40px auto;
+  }
+  #school-projects {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1040px) {
+  #projects{
+      /* display: block; */
+  }
+  /* .project-div{
+      margin: 200px auto;
+  } */
+}
+@media only screen and (max-width: 690px) {
+  #welcome-section h1, h2{
+      font-size: 30px;
+}
+@media only screen and (max-width: 455px) {
+  #welcome-section h1, h2{
+      font-size: 18px;
+  }
+  .project-div{
+      width: 150px;
+      height: 100px;
+  }
+}

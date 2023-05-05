@@ -214,21 +214,21 @@
   }
   .container h2{
     font-size: 20px;
-    letter-spacing: 19px;
+    letter-spacing: 14px;
     line-height: 35px;
   }
 }
-@media (min-width:800px){
+/* @media (min-width:800px){
   .container{
     width: 90%;
   }
 
   .container h2{
     font-size: 40px;
-    letter-spacing: 19px;
-    line-height: 35px;
-  }
-}
+    /* letter-spacing: 19px; */
+    /* line-height: 35px; */
+  /* } */
+/* } */
 
 
 @-webkit-keyframes circling {

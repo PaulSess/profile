@@ -20,23 +20,26 @@
   <!-- bootstrap  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- carousel  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- animation.css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- stylesheets  -->
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/welcome-animation.css">
+    <link rel="stylesheet" href="./stylesheets/techstack.css">
+    <link rel="stylesheet" href="./stylesheets/projects.css">
+    <link rel="stylesheet" href="contact-form.css">
+    <link rel="stylesheet" href="./stylesheets/navbar.css">
+    <link rel="stylesheet" href="./stylesheets/welcome-section.css">
+    <link rel="stylesheet" href="./stylesheets/modals.css">
     <!-- scrollaction  -->
     <link rel="stylesheet" href="./stylesheets/scrollaction.css">
-  <!-- carousel  -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <!-- animation.css  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- mediaqueries.css  -->
+    <link rel="stylesheet" href="./stylesheets/mediaqueries.css" />
 
-  <!-- stylesheets  -->
-  <link rel="stylesheet" href="./stylesheets/style.css">
-  <link rel="stylesheet" href="./stylesheets/welcome-animation.css">
-  <link rel="stylesheet" href="./stylesheets/techstack.css">
-  <link rel="stylesheet" href="./stylesheets/projects.css">
-  <link rel="stylesheet" href="contact-form.css">
-  <link rel="stylesheet" href="./stylesheets/navbar.css">
-  <link rel="stylesheet" href="./stylesheets/welcome-section.css">
-  <link rel="stylesheet" href="./stylesheets/modals.css">
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <!-- blob animation  -->
@@ -47,8 +50,8 @@
 <body>
   <!-- NAVBAR  -->
   <nav id="navbar" style="background-color: #181818;">
-    <i class="fa-solid fa-code navcodeicon hiddenleft" style="font-size: 50px; transition-delay: 2500ms;"></i>
-    <a class="navlink hiddenleft" href="#projects"><i class="fa-solid fa-angles-right"
+    <i id="dev-tag" class="fa-solid fa-code navcodeicon hiddenleft" style="font-size: 50px; transition-delay: 2500ms;"></i>
+    <a id="nav-projects" class="navlink hiddenleft" href="#projects"><i class="fa-solid fa-angles-right"
         style="font-size: 23px;"></i>Projects</a>
     <!-- <a class="github-nav" target="_blank" href="https://github.com/PaulSess"><img src="./images/github.svg" alt="github link"></a> -->
   </nav>
@@ -89,7 +92,7 @@
     </div>
   </section>
   <a href="#techstack">
-    <img class="scroll-down" src="./images/scroll-down.png" alt="scroll down to techstack"
+    <img id="scroll-arrow" class="scroll-down" src="./images/scroll-down.png" alt="scroll down to techstack"
   style="margin: 0 auto; width: 60px; position: absolute; left: 47%;">
   </a>
   <img id="Thats-me-SVG" src="images/That's me!.svg"
@@ -445,7 +448,6 @@
     </section>
 
   </section>
-
 
 
 
