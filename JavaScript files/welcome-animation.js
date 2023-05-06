@@ -60,15 +60,16 @@
 
 
 
-    if(window.innerWidth < 376){
+    if(window.innerWidth < 900){
       window.addEventListener("load", (event) => {
         // console.log("page is fully loaded");
           // event.target.classList.add('bg-yellow');
           Thatsme.classList.add('animate__animated', 'animate__flipInX', 'animate__delay-3s');
           me.classList.add('animate__animated', 'animate__fadeInRightBig', 'animate__slow', 'animate__delay-1s');
           arrow.style.visibility = "visible";
+          // arrow.style.display = "block";
           // Thatsme.style = "block";
-          // me.style.display = "block";
+          me.style.display = "block";
 
       });
 

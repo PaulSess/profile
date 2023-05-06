@@ -1,5 +1,4 @@
 
-
 @media only screen and (max-width: 376px) {
 
   /* navbar  */
@@ -172,6 +171,703 @@
 }
 
 
+
+
+@media only screen and (min-width: 376px) and (max-width: 450px)  {
+  /* navbar  */
+  #dev-tag {
+    font-size: 36px;
+  }
+  #nav-projects {
+    font-size: 20px;
+  }
+
+  /* welcome section  */
+  #hello-h1 {
+    font-size: 30px;
+    top: 25%;
+    left: 5%;
+  }
+  #paul {
+    font-size: 32px;
+  }
+  #Thats-me-SVG {
+    display: block;
+    width: 118px;
+    top: 270px;
+    left: 24%;
+  }
+  #arrow {
+    /* display: block; */
+    /* visibility: hidden; */
+    width: 92px;
+    top: 282px;
+    left: 38%;
+  }
+  #me {
+    display: block;
+    left: 159px;
+    top: 173px;
+    width: 151px;
+    filter: grayscale(78%);
+  }
+  #webdev-h2 {
+    font-size: 25px;
+    top: 87%;
+    left: 9%;
+  }
+
+  #scroll-arrow {
+    left: 43% !important;
+  }
+
+
+
+  /* techstack  */
+  #techstack {
+    margin-top: 22%;
+  }
+  #techstack > .container {
+    font-size: 16px;
+    letter-spacing: 13px;
+  }
+  #techstack > .container > img {
+    /* width: 13%; */
+  }
+  .stack:nth-child(4){
+    /* figma  */
+    top: 28%;
+    left: -1%;
+  }
+  .stack:nth-child(6){
+    /* github  */
+    left: -3%;
+    top: 44%;
+  }
+  .stack:nth-child(7){
+    /* google lighthouse  */
+    top: 58%;
+    left: 15%;
+  }
+  .stack:nth-child(8){
+    /* heroku */
+    top: 25%;
+    left: 86%;
+  }
+  .stack:nth-child(10){
+    /* jquery  */
+  top: 58%;
+  }
+  .stack:nth-child(11){
+    /* javascript  */
+    top: 89%;
+  }
+  .stack:nth-child(12){
+    /* rails  */
+    left: 54%;
+  }
+  .stack:nth-child(14){
+    /* ruby  */
+    top: 78%;
+    left: 0%;
+  }
+  .stack:nth-child(15){
+  /* webpack  */
+    width: 29%;
+}
+.stack:nth-child(16){
+  /* yarn */
+  width: 17%;
+}
+.stack:nth-child(17){
+  /* postgresql  */
+  top: 78%;
+}
+.stack:nth-child(19){
+  /* tailwind */
+  top: -8%;
+  left: 28%;
+}
+
+
+
+
+  /* project-section  */
+  #projects {
+    margin-top: 94px;
+  }
+  .projectheader {
+    margin: 20px !important;
+  }
+  .project-div {
+    margin: 60px auto;
+    width: 70%;
+  }
+  .project-title {
+    font-size: 21px !important;
+  }
+  #page-logo-link-Giftit {
+    width: 100px;
+  }
+  #page-logo-link-Lonelyfans {
+    width: 170px;
+  }
+  /* #page-logo-link-Deforestation {
+    width: 160px;
+  } */
+  #page-logo-link-Headtrade {
+    width: 130px;
+  }
+  #page-logo-link-Tomer {
+    width: 150px;
+  }
+  #page-logo-link-SanRegret {
+    width: 160px;
+  }
+  #page-logo-link-gogreen {
+    width: 50%;
+  }
+  #school-projects {
+    display: block;
+    margin: 0;
+  }
+  #team-projects {
+    display: block;
+  }
+  #personal-projects {
+    display: block;
+    margin-bottom: 120px;
+  }
+  #carouselSanRegretIndicators {
+    margin-top: 110px;
+  }
+
+}
+
+
+
+
+@media only screen and (min-width: 450px) and (max-width: 490px)  {
+  /* navbar  */
+  #dev-tag {
+    font-size: 36px;
+  }
+  #nav-projects {
+    font-size: 20px;
+  }
+
+  /* welcome section  */
+  #hello-h1 {
+    font-size: 30px;
+    top: 25%;
+    left: 5%;
+  }
+  #paul {
+    font-size: 32px;
+  }
+  #Thats-me-SVG {
+    display: block;
+    width: 118px;
+    top: 270px;
+    left: 36%;
+  }
+  #arrow {
+    /* display: block; */
+    /* visibility: hidden; */
+    width: 92px;
+    top: 282px;
+    left: 36%;
+  }
+  #me {
+    display: block;
+    left: 219px;
+    top: 173px;
+    width: 151px;
+    filter: grayscale(78%);
+  }
+  #webdev-h2 {
+    font-size: 25px;
+    top: 87%;
+    left: 9%;
+  }
+
+  #scroll-arrow {
+    left: 43% !important;
+  }
+
+
+
+  /* techstack  */
+  #techstack {
+    margin-top: 22%;
+  }
+  #techstack > .container {
+    font-size: 16px;
+    letter-spacing: 13px;
+  }
+  #techstack > .container > img {
+    /* width: 13%; */
+  }
+  .stack:nth-child(4){
+    /* figma  */
+    top: 28%;
+    left: -1%;
+  }
+  .stack:nth-child(6){
+    /* github  */
+    left: -3%;
+    top: 44%;
+  }
+  .stack:nth-child(7){
+    /* google lighthouse  */
+    top: 58%;
+    left: 15%;
+  }
+  .stack:nth-child(8){
+    /* heroku */
+    top: 25%;
+    left: 86%;
+  }
+  .stack:nth-child(10){
+    /* jquery  */
+  top: 58%;
+  }
+  .stack:nth-child(11){
+    /* javascript  */
+    top: 89%;
+  }
+  .stack:nth-child(12){
+    /* rails  */
+    left: 54%;
+  }
+  .stack:nth-child(14){
+    /* ruby  */
+    top: 78%;
+    left: 0%;
+  }
+  .stack:nth-child(15){
+  /* webpack  */
+    width: 29%;
+}
+.stack:nth-child(16){
+  /* yarn */
+  width: 17%;
+}
+.stack:nth-child(17){
+  /* postgresql  */
+  top: 78%;
+}
+.stack:nth-child(19){
+  /* tailwind */
+  top: -8%;
+  left: 28%;
+}
+
+
+
+
+  /* project-section  */
+  #projects {
+    margin-top: 94px;
+  }
+  .projectheader {
+    margin: 20px !important;
+  }
+  .project-div {
+    margin: 60px auto;
+    width: 70%;
+  }
+  .project-title {
+    font-size: 21px !important;
+  }
+  #page-logo-link-Giftit {
+    width: 100px;
+  }
+  #page-logo-link-Lonelyfans {
+    width: 170px;
+  }
+  /* #page-logo-link-Deforestation {
+    width: 160px;
+  } */
+  #page-logo-link-Headtrade {
+    width: 130px;
+  }
+  #page-logo-link-Tomer {
+    width: 150px;
+  }
+  #page-logo-link-SanRegret {
+    width: 160px;
+  }
+  #page-logo-link-gogreen {
+    width: 50%;
+  }
+  #school-projects {
+    display: block;
+    margin: 0;
+  }
+  #team-projects {
+    display: block;
+  }
+  #personal-projects {
+    display: block;
+    margin-bottom: 120px;
+  }
+  #carouselSanRegretIndicators {
+    margin-top: 110px;
+  }
+
+}
+
+
+  /* @media only screen and (min-width: 490px) and (max-width: 580px)  {
+    .project-div {
+      margin-bottom: 108px;
+    }
+  } */
+@media only screen and (min-width: 490px) and (max-width: 650px)  {
+  /* navbar  */
+  #dev-tag {
+    font-size: 36px;
+  }
+  #nav-projects {
+    font-size: 20px;
+  }
+
+  /* welcome section  */
+  #hello-h1 {
+    font-size: 30px;
+    top: 25%;
+    left: 5%;
+  }
+  #paul {
+    font-size: 32px;
+  }
+  #Thats-me-SVG {
+    display: block;
+    width: 118px;
+    top: 270px;
+    left: 44%;
+  }
+  #arrow {
+    /* display: block; */
+    /* visibility: hidden; */
+    width: 92px;
+    top: 282px;
+    left: 36%;
+  }
+  #me {
+    display: block;
+    left: 64%;
+    top: 173px;
+    width: 151px;
+    filter: grayscale(78%);
+  }
+  #webdev-h2 {
+    font-size: 25px;
+    top: 87%;
+    left: 9%;
+  }
+
+  #scroll-arrow {
+    left: 43% !important;
+  }
+
+
+
+  /* techstack  */
+  #techstack {
+    margin-top: 22%;
+  }
+  #techstack > .container {
+    font-size: 16px;
+    letter-spacing: 13px;
+  }
+  #techstack > .container > img {
+    /* width: 13%; */
+  }
+  .stack:nth-child(4){
+    /* figma  */
+    top: 28%;
+    left: -1%;
+  }
+  .stack:nth-child(6){
+    /* github  */
+    left: -3%;
+    top: 44%;
+  }
+  .stack:nth-child(7){
+    /* google lighthouse  */
+    top: 58%;
+    left: 15%;
+  }
+  .stack:nth-child(8){
+    /* heroku */
+    top: 25%;
+    left: 86%;
+  }
+  .stack:nth-child(10){
+    /* jquery  */
+  top: 58%;
+  }
+  .stack:nth-child(11){
+    /* javascript  */
+    top: 89%;
+  }
+  .stack:nth-child(12){
+    /* rails  */
+    left: 54%;
+  }
+  .stack:nth-child(14){
+    /* ruby  */
+    top: 78%;
+    left: 0%;
+  }
+  .stack:nth-child(15){
+  /* webpack  */
+    width: 29%;
+}
+.stack:nth-child(16){
+  /* yarn */
+  width: 17%;
+}
+.stack:nth-child(17){
+  /* postgresql  */
+  top: 78%;
+}
+.stack:nth-child(19){
+  /* tailwind */
+  top: -8%;
+  left: 28%;
+}
+
+
+
+
+  /* project-section  */
+  #projects {
+    margin-top: 94px;
+  }
+  .projectheader {
+    margin: 20px !important;
+  }
+  .project-div {
+    margin: 60px auto;
+    margin-bottom: 158px;
+
+    width: 70%;
+  }
+  .project-title {
+    font-size: 21px !important;
+  }
+  #page-logo-link-Giftit {
+    width: 100px;
+  }
+  #page-logo-link-Lonelyfans {
+    width: 170px;
+  }
+  /* #page-logo-link-Deforestation {
+    width: 160px;
+  } */
+  #page-logo-link-Headtrade {
+    width: 130px;
+  }
+  #page-logo-link-Tomer {
+    width: 150px;
+  }
+  #page-logo-link-SanRegret {
+    width: 160px;
+  }
+  #page-logo-link-gogreen {
+    width: 50%;
+  }
+  #school-projects {
+    display: block;
+    margin: 0;
+  }
+  #team-projects {
+    display: block;
+  }
+  #personal-projects {
+    display: block;
+    margin-bottom: 120px;
+  }
+  #carouselSanRegretIndicators {
+    margin-top: 110px;
+  }
+
+}
+
+
+
+
+@media only screen and (min-width: 650px) and (max-width: 900px)  {
+  /* navbar  */
+  #dev-tag {
+    font-size: 36px;
+  }
+  #nav-projects {
+    font-size: 20px;
+  }
+
+  /* welcome section  */
+  #hello-h1 {
+    font-size: 30px;
+    top: 25%;
+    left: 5%;
+  }
+  #paul {
+    font-size: 32px;
+  }
+  #Thats-me-SVG {
+    display: block;
+    width: 118px;
+    top: 270px;
+    left: 47%;
+  }
+  #arrow {
+    /* display: block; */
+    /* visibility: hidden; */
+    width: 92px;
+    top: 282px;
+    left: 36%;
+  }
+  #me {
+    display: block;
+    left: 64%;
+    top: 173px;
+    width: 151px;
+    filter: grayscale(78%);
+  }
+  #webdev-h2 {
+    font-size: 25px;
+    top: 87%;
+    left: 9%;
+  }
+
+  #scroll-arrow {
+    left: 43% !important;
+  }
+
+
+
+  /* techstack  */
+  #techstack {
+    margin-top: 22%;
+  }
+  #techstack > .container {
+    font-size: 16px;
+    letter-spacing: 13px;
+  }
+  .stack:nth-child(4){
+    /* figma  */
+    top: 28%;
+    left: -1%;
+  }
+  .stack:nth-child(6){
+    /* github  */
+    left: -3%;
+    top: 44%;
+  }
+  .stack:nth-child(7){
+    /* google lighthouse  */
+    top: 58%;
+    left: 15%;
+  }
+  .stack:nth-child(8){
+    /* heroku */
+    top: 25%;
+    left: 86%;
+  }
+  .stack:nth-child(10){
+    /* jquery  */
+  top: 58%;
+  }
+  .stack:nth-child(11){
+    /* javascript  */
+    top: 89%;
+  }
+  .stack:nth-child(12){
+    /* rails  */
+    left: 54%;
+  }
+  .stack:nth-child(14){
+    /* ruby  */
+    top: 78%;
+    left: 0%;
+  }
+  .stack:nth-child(15){
+  /* webpack  */
+    width: 29%;
+}
+.stack:nth-child(16){
+  /* yarn */
+  width: 17%;
+}
+.stack:nth-child(17){
+  /* postgresql  */
+  top: 78%;
+}
+.stack:nth-child(19){
+  /* tailwind */
+  top: -8%;
+  left: 28%;
+}
+
+
+
+
+  /* project-section  */
+  #projects {
+    margin-top: 94px;
+  }
+  .projectheader {
+    margin: 20px !important;
+  }
+  .project-div {
+    margin: 60px auto;
+    margin-bottom: 200px;
+    width: 70%;
+  }
+  .project-title {
+    font-size: 21px !important;
+  }
+  #page-logo-link-Giftit {
+    width: 100px;
+  }
+  #page-logo-link-Lonelyfans {
+    width: 170px;
+  }
+  /* #page-logo-link-Deforestation {
+    width: 160px;
+  } */
+  #page-logo-link-Headtrade {
+    width: 130px;
+  }
+  #page-logo-link-Tomer {
+    width: 150px;
+  }
+  #page-logo-link-SanRegret {
+    width: 160px;
+  }
+  #page-logo-link-gogreen {
+    width: 50%;
+  }
+  #school-projects {
+    display: block;
+    margin: 0;
+  }
+  #team-projects {
+    display: block;
+  }
+  #personal-projects {
+    display: block;
+    margin-bottom: 120px;
+  }
+  #carouselSanRegretIndicators {
+    margin-top: 110px;
+  }
+
+}
 
 
 

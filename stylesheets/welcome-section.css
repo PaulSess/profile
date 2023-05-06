@@ -44,7 +44,6 @@
 }
 #arrow{
   width: 100px;
-  visibility: hidden;
   position: absolute;
   top: 210px;
   left: 64%;
