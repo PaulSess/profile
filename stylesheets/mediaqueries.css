@@ -19,9 +19,29 @@
   #paul {
     font-size: 32px;
   }
+  #Thats-me-SVG {
+    display: block;
+    width: 118px;
+    top: 270px;
+    left: 24%;
+  }
+  #arrow {
+    /* display: block; */
+    /* visibility: hidden; */
+    width: 92px;
+    top: 282px;
+    left: 38%;
+  }
+  #me {
+    display: block;
+    left: 159px;
+    top: 173px;
+    width: 151px;
+    filter: grayscale(78%);
+  }
   #webdev-h2 {
     font-size: 25px;
-    top: 65%;
+    top: 87%;
     left: 9%;
   }
 
@@ -40,8 +60,65 @@
     letter-spacing: 13px;
   }
   #techstack > .container > img {
-    width: 13%;
+    /* width: 13%; */
   }
+  .stack:nth-child(4){
+    /* figma  */
+    top: 28%;
+    left: -1%;
+  }
+  .stack:nth-child(6){
+    /* github  */
+    left: -3%;
+    top: 44%;
+  }
+  .stack:nth-child(7){
+    /* google lighthouse  */
+    top: 58%;
+    left: 15%;
+  }
+  .stack:nth-child(8){
+    /* heroku */
+    top: 25%;
+    left: 86%;
+  }
+  .stack:nth-child(10){
+    /* jquery  */
+  top: 58%;
+  }
+  .stack:nth-child(11){
+    /* javascript  */
+    top: 89%;
+  }
+  .stack:nth-child(12){
+    /* rails  */
+    left: 54%;
+  }
+  .stack:nth-child(14){
+    /* ruby  */
+    top: 78%;
+    left: 0%;
+  }
+  .stack:nth-child(15){
+  /* webpack  */
+    width: 29%;
+}
+.stack:nth-child(16){
+  /* yarn */
+  width: 17%;
+}
+.stack:nth-child(17){
+  /* postgresql  */
+  top: 78%;
+}
+.stack:nth-child(19){
+  /* tailwind */
+  top: -8%;
+  left: 28%;
+}
+
+
+
 
   /* project-section  */
   #projects {
@@ -102,12 +179,6 @@
 
 
 @media only screen and (max-width: 1040px) {
-  #projects{
-      /* display: block; */
-  }
-  /* .project-div{
-      margin: 200px auto;
-  } */
 }
 @media only screen and (max-width: 690px) {
   #welcome-section h1, h2{
@@ -116,9 +187,5 @@
 @media only screen and (max-width: 455px) {
   #welcome-section h1, h2{
       font-size: 18px;
-  }
-  .project-div{
-      /* width: 150px;
-      height: 100px; */
   }
 }
