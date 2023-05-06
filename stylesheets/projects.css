@@ -15,7 +15,27 @@
 .project-div:nth-child(3){
   transition-delay: 1100ms;
 }
-
+#page-logo-link-Giftit {
+  /* width: 170px; */
+}
+#page-logo-link-Lonelyfans {
+  /* width: 170px; */
+}
+#page-logo-link-Deforestation {
+  width: 160px;
+}
+#page-logo-link-Headtrade {
+  width: 160px;
+}
+#page-logo-link-Tomer {
+  width: 170px;
+}
+#page-logo-link-SanRegret {
+  width: 200px;
+}
+#page-logo-link-gogreen {
+  width: 170px;
+}
 .project-description{
   margin-top: 0px;
   display: flex;

@@ -1,3 +1,5 @@
+
+
 @media only screen and (max-width: 376px) {
 
   /* navbar  */
@@ -22,9 +24,12 @@
     top: 65%;
     left: 9%;
   }
+
   #scroll-arrow {
     left: 43% !important;
   }
+
+
 
   /* techstack  */
   #techstack {
@@ -46,13 +51,48 @@
     margin: 20px !important;
   }
   .project-div {
-    margin: 40px auto;
+    margin: 60px auto;
+    width: 70%;
+  }
+  .project-title {
+    font-size: 21px !important;
+  }
+  #page-logo-link-Giftit {
+    width: 100px;
+  }
+  #page-logo-link-Lonelyfans {
+    width: 170px;
+  }
+  /* #page-logo-link-Deforestation {
+    width: 160px;
+  } */
+  #page-logo-link-Headtrade {
+    width: 130px;
+  }
+  #page-logo-link-Tomer {
+    width: 150px;
+  }
+  #page-logo-link-SanRegret {
+    width: 160px;
+  }
+  #page-logo-link-gogreen {
+    width: 50%;
   }
   #school-projects {
     display: block;
+    margin: 0;
+  }
+  #team-projects {
+    display: block;
+  }
+  #personal-projects {
+    display: block;
+    margin-bottom: 120px;
+  }
+  #carouselSanRegretIndicators {
+    margin-top: 110px;
   }
 }
-
 
 
 
@@ -78,7 +118,7 @@
       font-size: 18px;
   }
   .project-div{
-      width: 150px;
-      height: 100px;
+      /* width: 150px;
+      height: 100px; */
   }
 }
