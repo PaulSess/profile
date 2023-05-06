@@ -13,3 +13,13 @@
 //   });
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe (el));
+
+
+
+
+
+    // const git = document.querySelector('#git')
+    // git.classList.add('animate__animated', 'animate__rotateOutDownLeft')
+
+
+
